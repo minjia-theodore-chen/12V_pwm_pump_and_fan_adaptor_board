@@ -1,0 +1,152 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "1e5bcf57-ecaf-4c00-86fd-4242d519fbb4")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 27.94 127)
+		(size 104.14 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "c95f4ce9-2da9-4d9d-82ce-79bb5b8b04da")
+		(property "Sheetname" "output_connectors"
+			(at 27.94 126.2884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "output_connectors.kicad_sch"
+			(at 27.94 160.6046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "12V_pwm_pump_and_fan_adaptor_board"
+				(path "/1e5bcf57-ecaf-4c00-86fd-4242d519fbb4"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 22.86 17.78)
+		(size 99.06 35.56)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "cb3269ca-da2b-44d6-b2fe-9989ee72d649")
+		(property "Sheetname" "12V_rail"
+			(at 22.86 17.0684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "12V_rail.kicad_sch"
+			(at 22.86 53.9246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "12V_pwm_pump_and_fan_adaptor_board"
+				(path "/1e5bcf57-ecaf-4c00-86fd-4242d519fbb4"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 33.02 78.74)
+		(size 88.9 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "dfd25b30-7961-4c66-b5ae-73ff5417fe22")
+		(property "Sheetname" "pwm_input"
+			(at 33.02 78.0284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pwm_input.kicad_sch"
+			(at 33.02 112.3446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "12V_pwm_pump_and_fan_adaptor_board"
+				(path "/1e5bcf57-ecaf-4c00-86fd-4242d519fbb4"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
