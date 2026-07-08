@@ -638,7 +638,7 @@
         "uuid": "1e5bcf57-ecaf-4c00-86fd-4242d519fbb4"
       }
     ],
-    "used_designators": "",
+    "used_designators": "R1,J3-4,#PWR6-10,C5-8,FUSE2-3,TP2",
     "variants": []
   },
   "sheets": [
@@ -661,6 +661,10 @@
     [
       "da625b9e-e8d1-4c94-9492-d415d6f35e25",
       "12V_pwm_fan_output_connector"
+    ],
+    [
+      "d0d3ba9f-59a4-4bf9-acfc-7dd847053208",
+      "12V_pwm_pump_connector"
     ]
   ],
   "text_variables": {},

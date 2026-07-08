@@ -6,6 +6,52 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
+		(at 40.64 66.04)
+		(size 27.94 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "d0d3ba9f-59a4-4bf9-acfc-7dd847053208")
+		(property "Sheetname" "12V_pwm_pump_connector"
+			(at 40.64 65.3284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "12V_pwm_pump_connector.kicad_sch"
+			(at 40.64 84.4046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "12V_pwm_pump_and_fan_adaptor_board"
+				(path "/1e5bcf57-ecaf-4c00-86fd-4242d519fbb4/c95f4ce9-2da9-4d9d-82ce-79bb5b8b04da"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 40.64 36.83)
 		(size 26.67 17.78)
 		(exclude_from_sim no)
