@@ -10,8 +10,8 @@ When the user asks you to process a new KiCad component (often downloaded as a Z
 1. **Locate the Download**: Find the newly downloaded zip file. The user typically places it in `lib/downloads/` or sometimes in their system Downloads folder (`C:\Users\Chen\Downloads`).
 2. **Decompress**: Unzip the contents into a temporary staging folder within `lib/downloads/`.
 3. **Organize and Move Assets**:
-   - Locate any `.kicad_sym` files and move them to `lib/symbols/<category>/` (create the category directory if needed).
-   - Locate any `.kicad_mod` files and move them to `lib/footprints/<category>.pretty/` (create the `.pretty` folder if needed).
+   - Locate any `.kicad_sym` files, extract the `(symbol ...)` block, and append it into the category library `lib/symbols/<category>/<category>.kicad_sym`. Do not leave them as separate `.kicad_sym` files.
+   - Locate any `.kicad_mod` files and move them to `lib/footprints/<category>/<category>.pretty/` (note the category subfolder before `.pretty`).
    - Locate any 3D model files (`.step`, `.stp`, `.wrl`) and move them to `lib/3D/<category>/`.
 4. **Update File Associations (Crucial Step)**:
    - Read the `.kicad_mod` file you just moved.
