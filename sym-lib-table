@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "fuses") (type "KiCad") (uri "${KIPRJMOD}/lib/symbols/fuses/fuses.kicad_sym") (options "") (descr ""))
+)
