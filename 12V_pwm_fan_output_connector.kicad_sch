@@ -1221,7 +1221,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" ""
 			(at 54.61 25.7048 0)
 			(hide yes)
 			(show_name no)
@@ -1301,14 +1301,13 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 24.13 26.6699 90)
+			(at 26.67 24.13 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -1398,7 +1397,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "connectors:0470531000"
+		(property "Footprint" "connectors:CONN_SD-47053-001_H10p00_MOL"
 			(at 114.3 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -1571,13 +1570,14 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 21.59 50.8 0)
+			(at 24.13 46.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -1667,7 +1667,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" ""
 			(at 107.6452 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -1747,14 +1747,13 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 90.17 48.2599 90)
+			(at 92.71 44.45 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -1842,7 +1841,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" ""
 			(at 100.33 41.148 90)
 			(hide yes)
 			(show_name no)
@@ -1932,7 +1931,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
+		(property "Footprint" ""
 			(at 21.59 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -2108,7 +2107,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" ""
 			(at 54.61 20.6248 0)
 			(hide yes)
 			(show_name no)

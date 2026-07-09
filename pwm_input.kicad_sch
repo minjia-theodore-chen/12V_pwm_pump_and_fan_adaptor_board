@@ -151,145 +151,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+12V"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "+12V"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+12V\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "+12V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+12V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -408,13 +269,13 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 39.37) (xy 66.04 39.37)
+			(xy 63.5 36.83) (xy 66.04 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "30b5539d-e6ca-423f-913b-aa40bb397357")
+		(uuid "088ce414-0d26-4707-9dd7-6ce2868f96aa")
 	)
 	(wire
 		(pts
@@ -426,16 +287,6 @@
 		)
 		(uuid "8fd7954b-8292-44e2-bbbc-6467611091f3")
 	)
-	(wire
-		(pts
-			(xy 63.5 36.83) (xy 66.04 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3750ee4-9f01-48f9-a8fb-2b078c6f671e")
-	)
 	(hierarchical_label "PWM_input"
 		(shape input)
 		(at 63.5 44.45 180)
@@ -446,85 +297,6 @@
 			(justify right)
 		)
 		(uuid "4b3452ff-c64c-4c24-b875-07a8852d8cc8")
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 63.5 39.37 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1bd95f0f-7bf0-4bbd-bd18-e9196343afb1")
-		(property "Reference" "#PWR011"
-			(at 67.31 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+12V"
-			(at 59.69 39.3699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 63.5 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 63.5 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e7101266-1842-4fe9-a91a-301392716cd4")
-		)
-		(instances
-			(project "12V_pwm_pump_and_fan_adaptor_board"
-				(path "/1e5bcf57-ecaf-4c00-86fd-4242d519fbb4/dfd25b30-7961-4c66-b5ae-73ff5417fe22"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "connectors:Fan_4pin")
@@ -560,7 +332,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "connectors:0470531000"
+		(property "Footprint" "connectors:CONN_SD-47053-001_H10p00_MOL"
 			(at 71.12 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -638,14 +410,13 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 59.69 36.8299 90)
+			(at 62.23 33.02 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
