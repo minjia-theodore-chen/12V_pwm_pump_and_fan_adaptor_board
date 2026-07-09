@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.4,
-          "width": 1.4
+          "drill": 0.0,
+          "height": 0.95,
+          "width": 1.075
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -148,7 +148,7 @@
           "td_onpthpad": true,
           "td_onroundshapesonly": false,
           "td_onsmdpad": true,
-          "td_ontrackend": false,
+          "td_ontrackend": true,
           "td_onvia": true
         }
       ],
@@ -638,7 +638,7 @@
         "uuid": "1e5bcf57-ecaf-4c00-86fd-4242d519fbb4"
       }
     ],
-    "used_designators": "R1,J3-4,#PWR6-10,C5-8,FUSE2-3,TP2",
+    "used_designators": "R2-4,J5-7,#PWR11-21,C8-14,FUSE3-4,TP3-4",
     "variants": []
   },
   "sheets": [
@@ -665,6 +665,14 @@
     [
       "d0d3ba9f-59a4-4bf9-acfc-7dd847053208",
       "12V_pwm_pump_connector"
+    ],
+    [
+      "edb7d57e-4286-4dc4-8f9d-3b878e22d2e1",
+      "12V_pwm_fan_output_connector1"
+    ],
+    [
+      "ff29f216-436f-4911-9050-5be9fef3b8f0",
+      "12V_pwm_fan_output_connector2"
     ]
   ],
   "text_variables": {},

@@ -5,8 +5,58 @@
 	(uuid "1e5bcf57-ecaf-4c00-86fd-4242d519fbb4")
 	(paper "A4")
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 17.78 129.54) (xy 21.59 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12e59b06-8a23-4d60-8ea4-0f36d1f40202")
+	)
+	(wire
+		(pts
+			(xy 17.78 101.6) (xy 17.78 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39dec370-bad9-445a-a88e-d4783733a0cb")
+	)
+	(wire
+		(pts
+			(xy 27.94 91.44) (xy 17.78 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "577dcf11-8c1e-4a07-9432-9f1f0d6c7bf5")
+	)
+	(wire
+		(pts
+			(xy 21.59 133.35) (xy 33.02 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ccb3f2c-b791-46f9-a239-ae869c3e8e74")
+	)
+	(wire
+		(pts
+			(xy 33.02 91.44) (xy 27.94 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de168dee-47be-4ba6-9ba7-1748f3fae610")
+	)
 	(sheet
-		(at 27.94 127)
+		(at 33.02 125.73)
 		(size 104.14 33.02)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22,7 +72,7 @@
 		)
 		(uuid "c95f4ce9-2da9-4d9d-82ce-79bb5b8b04da")
 		(property "Sheetname" "output_connectors"
-			(at 27.94 126.2884 0)
+			(at 33.02 125.0184 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33,7 +83,7 @@
 			)
 		)
 		(property "Sheetfile" "output_connectors.kicad_sch"
-			(at 27.94 160.6046 0)
+			(at 33.02 159.3346 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -41,6 +91,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "shared_pwm_signal" input
+			(at 33.02 133.35 180)
+			(uuid "2b473897-f507-4e5a-9307-02d2b5c5f49f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -133,6 +193,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "PWM_input" input
+			(at 33.02 91.44 180)
+			(uuid "5d04e2ec-6d3a-4af4-a012-76dbfe0bea62")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

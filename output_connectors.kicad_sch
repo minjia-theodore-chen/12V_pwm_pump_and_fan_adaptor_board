@@ -5,6 +5,90 @@
 	(uuid "084990f6-4687-4418-ac0b-fa663bbc9b04")
 	(paper "A4")
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 38.1 74.93) (xy 40.64 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a78b964-bcee-4895-a723-54b0999cab15")
+	)
+	(wire
+		(pts
+			(xy 38.1 45.72) (xy 40.64 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22f819f9-5dfd-407b-9df8-a2d8a858b3e5")
+	)
+	(wire
+		(pts
+			(xy 87.63 45.72) (xy 90.17 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c66cb18-5bb4-403d-9e4d-5724174386cf")
+	)
+	(wire
+		(pts
+			(xy 140.97 45.72) (xy 143.51 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9253071c-307d-4b6b-bcd8-e4511838c2cf")
+	)
+	(hierarchical_label "shared_pwm_signal"
+		(shape input)
+		(at 87.63 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "25b98a7d-bb05-4553-b307-46864a2772cb")
+	)
+	(hierarchical_label "shared_pwm_signal"
+		(shape input)
+		(at 38.1 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7fa4fb24-e9fd-49ff-a03c-c2cce9891b76")
+	)
+	(hierarchical_label "shared_pwm_signal"
+		(shape input)
+		(at 140.97 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d2edf7cf-59e3-47ff-bf80-809375ec4072")
+	)
+	(hierarchical_label "shared_pwm_signal"
+		(shape input)
+		(at 38.1 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f8cf191b-7a03-49ef-b5d4-4592a0470217")
+	)
 	(sheet
 		(at 40.64 66.04)
 		(size 27.94 17.78)
@@ -41,6 +125,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "shared_pwm_signal" input
+			(at 40.64 74.93 180)
+			(uuid "0caed49d-2d38-469e-accb-0b96cb01d933")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -103,6 +197,118 @@
 			(project "12V_pwm_pump_and_fan_adaptor_board"
 				(path "/1e5bcf57-ecaf-4c00-86fd-4242d519fbb4/c95f4ce9-2da9-4d9d-82ce-79bb5b8b04da"
 					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 90.17 36.83)
+		(size 26.67 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "edb7d57e-4286-4dc4-8f9d-3b878e22d2e1")
+		(property "Sheetname" "12V_pwm_fan_output_connector1"
+			(at 90.17 36.1184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "12V_pwm_fan_output_connector.kicad_sch"
+			(at 90.17 55.1946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "shared_pwm_signal" input
+			(at 90.17 45.72 180)
+			(uuid "cc480c7b-166a-4698-afdd-d7920e5bb84e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "12V_pwm_pump_and_fan_adaptor_board"
+				(path "/1e5bcf57-ecaf-4c00-86fd-4242d519fbb4/c95f4ce9-2da9-4d9d-82ce-79bb5b8b04da"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 143.51 36.83)
+		(size 26.67 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "ff29f216-436f-4911-9050-5be9fef3b8f0")
+		(property "Sheetname" "12V_pwm_fan_output_connector2"
+			(at 143.51 36.1184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "12V_pwm_fan_output_connector.kicad_sch"
+			(at 143.51 55.1946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "shared_pwm_signal" input
+			(at 143.51 45.72 180)
+			(uuid "56a4eec4-d327-4697-a00a-6202a095a855")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "12V_pwm_pump_and_fan_adaptor_board"
+				(path "/1e5bcf57-ecaf-4c00-86fd-4242d519fbb4/c95f4ce9-2da9-4d9d-82ce-79bb5b8b04da"
+					(page "8")
 				)
 			)
 		)

@@ -307,6 +307,146 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "connectors:Fan_4pin"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -827,6 +967,12 @@
 		(uuid "0bde8f3f-89c5-4f00-9cdd-1356ae26d6c6")
 	)
 	(junction
+		(at 106.68 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "251e0c80-d99f-4c6c-8319-7461861db575")
+	)
+	(junction
 		(at 46.99 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -844,16 +990,6 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 30.48) (xy 55.88 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "191ebd78-fc25-45ea-95e4-062659a61838")
-	)
-	(wire
-		(pts
 			(xy 45.72 26.67) (xy 46.99 26.67)
 		)
 		(stroke
@@ -864,13 +1000,53 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 34.29) (xy 55.88 34.29)
+			(xy 109.22 31.75) (xy 55.88 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cf5d886-e679-470c-9f10-46b9ab9143b0")
+	)
+	(wire
+		(pts
+			(xy 52.07 34.29) (xy 109.22 34.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4e6e92c7-ebf8-4bca-b1b9-a346e4bbface")
+	)
+	(wire
+		(pts
+			(xy 106.68 39.37) (xy 109.22 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c7b2974-803f-4824-92f6-96d90d66d4d5")
+	)
+	(wire
+		(pts
+			(xy 104.14 39.37) (xy 106.68 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6092b288-cc32-4e21-adc9-dad1ab28ca82")
+	)
+	(wire
+		(pts
+			(xy 93.98 39.37) (xy 96.52 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a33338e-47b5-46ec-bbf9-255b6bde8816")
 	)
 	(wire
 		(pts
@@ -914,6 +1090,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 31.75) (xy 54.61 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85f4460b-4d00-48ad-aa99-c00a0f7440b9")
+	)
+	(wire
+		(pts
 			(xy 54.61 26.67) (xy 54.61 30.48)
 		)
 		(stroke
@@ -924,13 +1110,23 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 36.83) (xy 55.88 36.83)
+			(xy 50.8 36.83) (xy 109.22 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9d6f9afa-3a0c-4add-b547-c580abb38320")
+	)
+	(wire
+		(pts
+			(xy 106.68 39.37) (xy 106.68 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a237bee2-9e4a-41ad-9916-7665726d8b5f")
 	)
 	(wire
 		(pts
@@ -944,16 +1140,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 39.37) (xy 55.88 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b854bd9b-44c6-4a5f-9a31-44ef7d2e6254")
-	)
-	(wire
-		(pts
 			(xy 54.61 26.67) (xy 57.15 26.67)
 		)
 		(stroke
@@ -961,6 +1147,16 @@
 			(type default)
 		)
 		(uuid "b9ce08b6-4a2c-4b44-99cb-9cc1fa1158cd")
+	)
+	(wire
+		(pts
+			(xy 93.98 48.26) (xy 106.68 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5cbbf57-617a-41b6-9da6-4412bdb9f408")
 	)
 	(wire
 		(pts
@@ -984,7 +1180,7 @@
 	)
 	(hierarchical_label "shared_pwm_signal"
 		(shape input)
-		(at 52.07 39.37 180)
+		(at 93.98 39.37 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1059,15 +1255,23 @@
 			)
 		)
 		(pin "1"
-			(uuid "5e51244b-4d15-403b-ba38-cc40e8a3da21")
+			(uuid "0702883a-5c34-47df-9504-f1434c081095")
 		)
 		(pin "2"
-			(uuid "f29ff465-01e1-4b4c-9c94-8a5bcd0d22c9")
+			(uuid "a63dcfa9-a889-47b3-b37c-68492e4a37f3")
 		)
 		(instances
 			(project "12V_pwm_pump_and_fan_adaptor_board"
 				(path "/1e5bcf57-ecaf-4c00-86fd-4242d519fbb4/c95f4ce9-2da9-4d9d-82ce-79bb5b8b04da/da625b9e-e8d1-4c94-9492-d415d6f35e25"
 					(reference "C3")
+					(unit 1)
+				)
+				(path "/1e5bcf57-ecaf-4c00-86fd-4242d519fbb4/c95f4ce9-2da9-4d9d-82ce-79bb5b8b04da/edb7d57e-4286-4dc4-8f9d-3b878e22d2e1"
+					(reference "C10")
+					(unit 1)
+				)
+				(path "/1e5bcf57-ecaf-4c00-86fd-4242d519fbb4/c95f4ce9-2da9-4d9d-82ce-79bb5b8b04da/ff29f216-436f-4911-9050-5be9fef3b8f0"
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -1141,7 +1345,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "125a1e4b-cfd0-4172-87e5-a71cbdc78863")
+			(uuid "e3e98a8d-c26c-4ba6-9150-e9d97f7eadba")
 		)
 		(instances
 			(project "12V_pwm_pump_and_fan_adaptor_board"
@@ -1149,12 +1353,20 @@
 					(reference "#PWR04")
 					(unit 1)
 				)
+				(path "/1e5bcf57-ecaf-4c00-86fd-4242d519fbb4/c95f4ce9-2da9-4d9d-82ce-79bb5b8b04da/edb7d57e-4286-4dc4-8f9d-3b878e22d2e1"
+					(reference "#PWR015")
+					(unit 1)
+				)
+				(path "/1e5bcf57-ecaf-4c00-86fd-4242d519fbb4/c95f4ce9-2da9-4d9d-82ce-79bb5b8b04da/ff29f216-436f-4911-9050-5be9fef3b8f0"
+					(reference "#PWR019")
+					(unit 1)
+				)
 			)
 		)
 	)
 	(symbol
 		(lib_id "connectors:Fan_4pin")
-		(at 60.96 34.29 0)
+		(at 114.3 34.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1165,7 +1377,7 @@
 		(fields_autoplaced yes)
 		(uuid "3824cc4d-68ff-46ac-b2c2-5d47f951ee4d")
 		(property "Reference" "J2"
-			(at 67.31 34.2899 0)
+			(at 120.65 34.2899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1176,7 +1388,7 @@
 			)
 		)
 		(property "Value" "Fan_4pin"
-			(at 67.31 36.8299 0)
+			(at 120.65 36.8299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1187,7 +1399,7 @@
 			)
 		)
 		(property "Footprint" "connectors:0470531000"
-			(at 60.96 44.45 0)
+			(at 114.3 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1198,7 +1410,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 60.96 34.29 0)
+			(at 114.3 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1209,7 +1421,7 @@
 			)
 		)
 		(property "Description" "4-pin PWM fan connector"
-			(at 60.96 34.29 0)
+			(at 114.3 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1220,21 +1432,29 @@
 			)
 		)
 		(pin "4"
-			(uuid "e2efe368-3a6a-4e00-918a-d50411da5f2a")
+			(uuid "950034ac-3151-465d-8646-04c6e763064d")
 		)
 		(pin "2"
-			(uuid "e6020862-e47f-4101-b19e-b4e9aeac8921")
+			(uuid "fe8f5a5e-8e19-462e-bad6-7d5d156de120")
 		)
 		(pin "3"
-			(uuid "70078436-aef9-4a94-a6bb-cb734d485bb5")
+			(uuid "a5223175-1d56-4fe6-810b-9e4f40dc5bcf")
 		)
 		(pin "1"
-			(uuid "e0d34c49-c5f9-4a8a-bb64-dd9b310ebbb4")
+			(uuid "0c1ae6a3-1e21-41f1-a04a-64e9c3cd9fe6")
 		)
 		(instances
 			(project "12V_pwm_pump_and_fan_adaptor_board"
 				(path "/1e5bcf57-ecaf-4c00-86fd-4242d519fbb4/c95f4ce9-2da9-4d9d-82ce-79bb5b8b04da/da625b9e-e8d1-4c94-9492-d415d6f35e25"
 					(reference "J2")
+					(unit 1)
+				)
+				(path "/1e5bcf57-ecaf-4c00-86fd-4242d519fbb4/c95f4ce9-2da9-4d9d-82ce-79bb5b8b04da/edb7d57e-4286-4dc4-8f9d-3b878e22d2e1"
+					(reference "J6")
+					(unit 1)
+				)
+				(path "/1e5bcf57-ecaf-4c00-86fd-4242d519fbb4/c95f4ce9-2da9-4d9d-82ce-79bb5b8b04da/ff29f216-436f-4911-9050-5be9fef3b8f0"
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -1308,12 +1528,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "510a9822-303f-4987-a2d9-ec6777fb6517")
+			(uuid "f3f17ecf-6ea5-4da6-b461-ee6799ad9134")
 		)
 		(instances
 			(project "12V_pwm_pump_and_fan_adaptor_board"
 				(path "/1e5bcf57-ecaf-4c00-86fd-4242d519fbb4/c95f4ce9-2da9-4d9d-82ce-79bb5b8b04da/da625b9e-e8d1-4c94-9492-d415d6f35e25"
 					(reference "#PWR03")
+					(unit 1)
+				)
+				(path "/1e5bcf57-ecaf-4c00-86fd-4242d519fbb4/c95f4ce9-2da9-4d9d-82ce-79bb5b8b04da/edb7d57e-4286-4dc4-8f9d-3b878e22d2e1"
+					(reference "#PWR016")
+					(unit 1)
+				)
+				(path "/1e5bcf57-ecaf-4c00-86fd-4242d519fbb4/c95f4ce9-2da9-4d9d-82ce-79bb5b8b04da/ff29f216-436f-4911-9050-5be9fef3b8f0"
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -1386,12 +1614,285 @@
 			)
 		)
 		(pin "1"
-			(uuid "39623002-561c-4738-9d53-93d7f0b57e1f")
+			(uuid "c4f98d8d-deab-4f55-aa2e-84e71522a101")
 		)
 		(instances
 			(project "12V_pwm_pump_and_fan_adaptor_board"
 				(path "/1e5bcf57-ecaf-4c00-86fd-4242d519fbb4/c95f4ce9-2da9-4d9d-82ce-79bb5b8b04da/da625b9e-e8d1-4c94-9492-d415d6f35e25"
 					(reference "#PWR05")
+					(unit 1)
+				)
+				(path "/1e5bcf57-ecaf-4c00-86fd-4242d519fbb4/c95f4ce9-2da9-4d9d-82ce-79bb5b8b04da/edb7d57e-4286-4dc4-8f9d-3b878e22d2e1"
+					(reference "#PWR014")
+					(unit 1)
+				)
+				(path "/1e5bcf57-ecaf-4c00-86fd-4242d519fbb4/c95f4ce9-2da9-4d9d-82ce-79bb5b8b04da/ff29f216-436f-4911-9050-5be9fef3b8f0"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 106.68 44.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "98ac962a-89ef-4858-99fb-43b766590808")
+		(property "Reference" "C8"
+			(at 110.49 43.1799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 110.49 45.7199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 107.6452 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 106.68 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "78ea227a-851c-4184-8cd1-b85f13e86769")
+		)
+		(pin "1"
+			(uuid "5580e5fe-7d1d-4ead-b24f-5d0d2601c280")
+		)
+		(instances
+			(project "12V_pwm_pump_and_fan_adaptor_board"
+				(path "/1e5bcf57-ecaf-4c00-86fd-4242d519fbb4/c95f4ce9-2da9-4d9d-82ce-79bb5b8b04da/da625b9e-e8d1-4c94-9492-d415d6f35e25"
+					(reference "C8")
+					(unit 1)
+				)
+				(path "/1e5bcf57-ecaf-4c00-86fd-4242d519fbb4/c95f4ce9-2da9-4d9d-82ce-79bb5b8b04da/edb7d57e-4286-4dc4-8f9d-3b878e22d2e1"
+					(reference "C11")
+					(unit 1)
+				)
+				(path "/1e5bcf57-ecaf-4c00-86fd-4242d519fbb4/c95f4ce9-2da9-4d9d-82ce-79bb5b8b04da/ff29f216-436f-4911-9050-5be9fef3b8f0"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 93.98 48.26 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a1efb4c8-c46e-404a-9aea-ff96f6f142e0")
+		(property "Reference" "#PWR013"
+			(at 87.63 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 90.17 48.2599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 93.98 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6de9e5cf-997d-49c6-94d0-03784a9bcafa")
+		)
+		(instances
+			(project "12V_pwm_pump_and_fan_adaptor_board"
+				(path "/1e5bcf57-ecaf-4c00-86fd-4242d519fbb4/c95f4ce9-2da9-4d9d-82ce-79bb5b8b04da/da625b9e-e8d1-4c94-9492-d415d6f35e25"
+					(reference "#PWR013")
+					(unit 1)
+				)
+				(path "/1e5bcf57-ecaf-4c00-86fd-4242d519fbb4/c95f4ce9-2da9-4d9d-82ce-79bb5b8b04da/edb7d57e-4286-4dc4-8f9d-3b878e22d2e1"
+					(reference "#PWR017")
+					(unit 1)
+				)
+				(path "/1e5bcf57-ecaf-4c00-86fd-4242d519fbb4/c95f4ce9-2da9-4d9d-82ce-79bb5b8b04da/ff29f216-436f-4911-9050-5be9fef3b8f0"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 100.33 39.37 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b623d1a6-27ed-4f97-85e0-c1c34d89dc7b")
+		(property "Reference" "R2"
+			(at 100.33 33.02 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 100.33 35.56 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 100.33 41.148 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 100.33 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c275317d-ee46-4b03-b854-a40b9be9b8e3")
+		)
+		(pin "2"
+			(uuid "a4a66309-0d8a-4425-8884-8cf5baf597dd")
+		)
+		(instances
+			(project "12V_pwm_pump_and_fan_adaptor_board"
+				(path "/1e5bcf57-ecaf-4c00-86fd-4242d519fbb4/c95f4ce9-2da9-4d9d-82ce-79bb5b8b04da/da625b9e-e8d1-4c94-9492-d415d6f35e25"
+					(reference "R2")
+					(unit 1)
+				)
+				(path "/1e5bcf57-ecaf-4c00-86fd-4242d519fbb4/c95f4ce9-2da9-4d9d-82ce-79bb5b8b04da/edb7d57e-4286-4dc4-8f9d-3b878e22d2e1"
+					(reference "R3")
+					(unit 1)
+				)
+				(path "/1e5bcf57-ecaf-4c00-86fd-4242d519fbb4/c95f4ce9-2da9-4d9d-82ce-79bb5b8b04da/ff29f216-436f-4911-9050-5be9fef3b8f0"
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -1465,15 +1966,23 @@
 			)
 		)
 		(pin "1"
-			(uuid "3b5ddeae-e862-4d3c-8e90-432d7aff8dd1")
+			(uuid "720fc040-d915-4e27-b251-1d43826123f9")
 		)
 		(pin "2"
-			(uuid "5194bb2a-9cf0-4596-88e6-ad75ffaf0f45")
+			(uuid "f34b52a1-a56c-481e-8811-9064d4148342")
 		)
 		(instances
 			(project "12V_pwm_pump_and_fan_adaptor_board"
 				(path "/1e5bcf57-ecaf-4c00-86fd-4242d519fbb4/c95f4ce9-2da9-4d9d-82ce-79bb5b8b04da/da625b9e-e8d1-4c94-9492-d415d6f35e25"
 					(reference "TP1")
+					(unit 1)
+				)
+				(path "/1e5bcf57-ecaf-4c00-86fd-4242d519fbb4/c95f4ce9-2da9-4d9d-82ce-79bb5b8b04da/edb7d57e-4286-4dc4-8f9d-3b878e22d2e1"
+					(reference "TP3")
+					(unit 1)
+				)
+				(path "/1e5bcf57-ecaf-4c00-86fd-4242d519fbb4/c95f4ce9-2da9-4d9d-82ce-79bb5b8b04da/ff29f216-436f-4911-9050-5be9fef3b8f0"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -1545,15 +2054,23 @@
 			)
 		)
 		(pin "1"
-			(uuid "60769e51-0ffd-43ae-8988-23afc06ddbbf")
+			(uuid "dbc73479-79ff-427a-823d-af6a2a89ca5d")
 		)
 		(pin "2"
-			(uuid "34ca8521-12ac-40ca-bff8-0a11231c13ed")
+			(uuid "671afbf4-4cd1-49e7-b479-b6d449a1ee54")
 		)
 		(instances
 			(project "12V_pwm_pump_and_fan_adaptor_board"
 				(path "/1e5bcf57-ecaf-4c00-86fd-4242d519fbb4/c95f4ce9-2da9-4d9d-82ce-79bb5b8b04da/da625b9e-e8d1-4c94-9492-d415d6f35e25"
 					(reference "FUSE1")
+					(unit 1)
+				)
+				(path "/1e5bcf57-ecaf-4c00-86fd-4242d519fbb4/c95f4ce9-2da9-4d9d-82ce-79bb5b8b04da/edb7d57e-4286-4dc4-8f9d-3b878e22d2e1"
+					(reference "FUSE3")
+					(unit 1)
+				)
+				(path "/1e5bcf57-ecaf-4c00-86fd-4242d519fbb4/c95f4ce9-2da9-4d9d-82ce-79bb5b8b04da/ff29f216-436f-4911-9050-5be9fef3b8f0"
+					(reference "FUSE4")
 					(unit 1)
 				)
 			)
@@ -1625,15 +2142,23 @@
 			)
 		)
 		(pin "1"
-			(uuid "8a419062-5de8-4e01-afce-8ad6d00f074f")
+			(uuid "77a25090-13ba-401e-a5bf-c0bc873c654a")
 		)
 		(pin "2"
-			(uuid "5c7334dc-d433-4107-bcff-aabfd7c8cdf5")
+			(uuid "695b45d6-b5e9-46d2-b215-2bd0dea33948")
 		)
 		(instances
 			(project "12V_pwm_pump_and_fan_adaptor_board"
 				(path "/1e5bcf57-ecaf-4c00-86fd-4242d519fbb4/c95f4ce9-2da9-4d9d-82ce-79bb5b8b04da/da625b9e-e8d1-4c94-9492-d415d6f35e25"
 					(reference "C4")
+					(unit 1)
+				)
+				(path "/1e5bcf57-ecaf-4c00-86fd-4242d519fbb4/c95f4ce9-2da9-4d9d-82ce-79bb5b8b04da/edb7d57e-4286-4dc4-8f9d-3b878e22d2e1"
+					(reference "C9")
+					(unit 1)
+				)
+				(path "/1e5bcf57-ecaf-4c00-86fd-4242d519fbb4/c95f4ce9-2da9-4d9d-82ce-79bb5b8b04da/ff29f216-436f-4911-9050-5be9fef3b8f0"
+					(reference "C12")
 					(unit 1)
 				)
 			)
